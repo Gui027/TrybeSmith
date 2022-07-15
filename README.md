@@ -1,16 +1,37 @@
-# 🚧 README em construção 🚧
+# Projeto Tribe Smith
 
-<!-- Olá, Tryber!
+# Contexto
 
-Esse é apenas um arquivo inicial para o README do seu projeto.
+Para este projeto, criei uma loja de itens medievais, no formato de uma API, utilizando Typescript.
 
-É essencial que você preencha esse documento por conta própria, ok?
+Desenvolvi todas as camadas da aplicação (Models, Service e Controllers) no código e, por meio dessa aplicação, é possível realizar as operações básicas que se pode fazer em um determinado banco de dados: Criação, Leitura, Atualização e Exclusão (ou CRUD, para as pessoas mais íntimas - Create, Read, Update e Delete).
 
-Não deixe de usar nossas dicas de escrita de README de projetos, e deixe sua criatividade brilhar!
+## Técnologias usadas
 
-⚠️ IMPORTANTE: você precisa deixar nítido:
-- quais arquivos/pastas foram desenvolvidos por você; 
-- quais arquivos/pastas foram desenvolvidos por outra pessoa estudante;
-- quais arquivos/pastas foram desenvolvidos pela Trybe.
+Back-end:
+> Desenvolvido usando: NodeJS, ExpressJS, MYSQL, ES6, Docker, Typescript, Camada MSC.
 
--->
+
+## Instalando Dependências
+
+> Backend
+```bash
+cd api/ 
+npm install
+``` 
+
+## Executando aplicação
+
+* Para rodar o back-end:
+
+  ```
+  cd api/ && npm start
+  ```
+
+## Executando Testes
+
+* Para rodar todos os testes:
+
+  ```
+    npm test
+  ```
